@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(75, 75, 75);
+}
+
+.container {
+    background-color: #5f2758;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+
+
+#heading {
+    text-align: center;
+}
+
+.personal-group, .education-group {
+    display: flex;
+    font-size:medium;
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: justify;
+    justify-content:space-between;
+    height: 25px;
+}
+
+#declare {
+    /* padding-top: 30px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+section {
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.submit-successful {
+    display: flex;
+    justify-content:center;
+    background-color: #5f2758;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin: auto;
+    width: 50%;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(0, 255, 0);
+    border: 3px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+

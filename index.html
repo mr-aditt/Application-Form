@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" target="./submit.html">
+            <div id = "heading"><h2>Application Form</h2></div><hr>
+            <h3 class = "sub-heading"><u>Personal Details</u></h3>
+            <div class = "personal-group" >
+                Name  <input type="text" name = "Name" placeholder = "Your Name as in ID" required>
+                D.O.B <input type="date" name = "D.O.B" required>
+            </div>
+            <div class = "personal-group" >
+                Email <input type="email" name="Email" required>
+                Contact<input type="number" name = "Contact-Number" required>
+            </div>
+            <br>
+            
+            <h3 class = "sub-heading"><u>Current Education Detail</u></h3>
+            <div class = "education-group">
+                Degree
+                <select name="Degree" id="">
+                    <option value="B.Tech">B.Tech</option>
+                    <option value="B.Sc">B.Sc</option>
+                    <option value="BCA">BCA</option>
+                    <option value="M.Tech">M.Tech</option>
+                    <option value="M.Sc">M.Sc</option>
+                    <option value="MCA">MCA</option>
+                </select>
+                Branch
+                <select name="Branch" id="">
+                    <option value="CSE with specialization in Artifical Intelligence">CSE with specialization in Artifical Intelligence</option>
+                    <option value="CSE with specialization in Machine Learning">CSE with specialization in Machine Learning</option>
+                    <option value="CSE with specialization in Cyber-Security">CSE with specialization in Cyber-Security</option>
+                    <option value="CSE with specialization in Big Data">CSE with specialization in Big Data</option>
+                </select>
+                GPA <input type="text" name="GPA" size="1">
+            </div>
+            <h3 class = "sub-heading"><u>Declaration</u></h3>
+            <div id = "declare">
+                <input type="checkbox" name="declaration" id="declare">
+                I hereby declare that the information furnished above is true, complete and correct to the best of my knowledge and belief. 
+                I understand that in the event of my information being found false or incorrect at any stage, my candidature / appointment 
+                shall be liable to cancellation / termination without notice or any compensation in lieu thereof.
+            </div>
+            <div class = "place-date">
+                <section>
+                    Place <input type="text" name="Place">
+                </section>
+                <section>
+                    Date <input type="date" name="Filling-date" id="filling-date">
+                </section>
+            </div>
+            <div id = "button"><button type="submit">Submit</button></div>
+            
+        </form>
+    </div>
+
+</body>
+</html>
